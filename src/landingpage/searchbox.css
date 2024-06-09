@@ -1,0 +1,42 @@
+
+  
+ 
+  
+  .suggestions-list {
+    position: absolute;
+    top: 400px; /* Adjust the top position as needed */
+    left: 50;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .suggestion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .suggestion-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .suggestion-icon {
+    font-size: 14px;
+    color: #666;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }

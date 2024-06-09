@@ -1,0 +1,23 @@
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slide 20s linear infinite;
+  }
+  
+  .slider img {
+    width: 150px; /* Adjust width to make the images square */
+    height: 150px; /* Adjust height to make the images square */
+    object-fit: cover; /* Ensures the images are not stretched */
+    margin-right: 70px; /* Adjust spacing between images if needed */
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
